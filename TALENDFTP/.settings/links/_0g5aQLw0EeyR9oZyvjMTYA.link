@@ -1,0 +1,26 @@
+{
+  "itemId" : "_0g5aQLw0EeyR9oZyvjMTYA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_KfMckLTtEeycM4792szZuA",
+    "parameterList" : [ {
+      "id" : "_VXr6ALT2EeycM4792szZuA",
+      "name" : "nexenUser"
+    }, {
+      "id" : "_VXr6AbT2EeycM4792szZuA",
+      "name" : "nexenPassword"
+    }, {
+      "id" : "_Wb920LZ9Eeyfl-jwQVZPQQ",
+      "name" : "truststore"
+    }, {
+      "id" : "_Wb920bZ9Eeyfl-jwQVZPQQ",
+      "name" : "keystore"
+    }, {
+      "id" : "_KLlbkLaDEeynWvBWR9-tFw",
+      "name" : "keystorePKCS"
+    }, {
+      "id" : "_WEVq4LaGEeynWvBWR9-tFw",
+      "name" : "truststoreJKS"
+    } ]
+  } ]
+}
