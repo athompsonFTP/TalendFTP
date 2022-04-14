@@ -1,0 +1,29 @@
+{
+  "itemId" : "_KZ2W4LRbEeyGw4yKBdoJ-g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Y0usELRbEeyGw4yKBdoJ-g",
+    "parameterList" : [ {
+      "id" : "_Y09VkbRbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Database"
+    }, {
+      "id" : "_Y09VkrRbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_AdditionalParams"
+    }, {
+      "id" : "_Y09Vk7RbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Password"
+    }, {
+      "id" : "_Y09VlLRbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Port"
+    }, {
+      "id" : "_Y09VlbRbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Schema"
+    }, {
+      "id" : "_Y09VlrRbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Server"
+    }, {
+      "id" : "_Y09Vl7RbEeyGw4yKBdoJ-g",
+      "name" : "MSSQL_Login"
+    } ]
+  } ]
+}

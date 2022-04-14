@@ -1,0 +1,65 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "FTAETF",
+    "contact" : { }
+  },
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/baskets/findByAcctID" : {
+      "get" : {
+        "summary" : "Find Basket CUSIPs by Acct ID",
+        "parameters" : [ {
+          "name" : "acctIDs",
+          "in" : "query",
+          "required" : true,
+          "type" : "array",
+          "description" : "Acct IDs",
+          "items" : {
+            "type" : "integer"
+          },
+          "x-example" : "2810"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/AccountBaskets"
+              }
+            }
+          }
+        }
+      },
+      "parameters" : [ ]
+    }
+  },
+  "definitions" : {
+    "AccountBaskets" : {
+      "type" : "object",
+      "required" : [ "acctID", "basketCUSIPs" ],
+      "properties" : {
+        "acctID" : {
+          "type" : "integer",
+          "description" : "Acct ID"
+        },
+        "basketCUSIPs" : {
+          "type" : "array",
+          "description" : "Basket CUSIPs",
+          "items" : {
+            "type" : "string"
+          }
+        },
+        "error" : {
+          "type" : "string",
+          "description" : "Error message"
+        }
+      },
+      "example" : "{\n  acctID:1234,\n  basketCUSIPs:[\n    \"FTAETF006\"\n  ]\n}"
+    }
+  }
+}
