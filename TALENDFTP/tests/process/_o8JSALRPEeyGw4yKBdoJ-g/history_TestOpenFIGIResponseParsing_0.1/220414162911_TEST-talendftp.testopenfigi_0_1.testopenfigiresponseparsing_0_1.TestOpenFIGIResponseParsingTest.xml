@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest" time="0.958" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Talend-Studio\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\zulu-11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -o -s D:\Talend-Studio\configuration\maven_user_settings.xml test -llr -l D:/Talend-Studio/workspace/.repositories/1959493198/master/TALENDFTP/poms/jobs/process/OpenFIGI/testopenfigi_0.1/lastGenerated.log -Dci.builder.skip=true -Dlicense.path=D:\Talend-Studio\license -Dsession.id=NjUzODUwMTY0OTk3MTc0MjczNA=="/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\student"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Java\zulu-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS"/>
+    <property name="user.name" value="student"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="license.path" value="D:\Talend-Studio\license"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\student\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\zulu-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/zulu-11/bin/server;C:/Java/zulu-11/bin;C:\Java\zulu-11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\GooGet;C:\Program Files\Google\Compute Engine\metadata_scripts;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Google\Compute Engine\sysprep;C:\Program Files\Docker;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\student\AppData\Local\Microsoft\WindowsApps;;C:\Users\student\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.11+9-LTS"/>
+    <property name="classworlds.conf" value="D:\Talend-Studio\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1576191279714020790.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="session.id" value="NjUzODUwMTY0OTk3MTc0MjczNA=="/>
+  </properties>
+  <testcase name="testDefault" classname="talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest" time="0.884">
+    <error type="java.io.FileNotFoundException:">java.io.FileNotFoundException: 
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileCompare_1Process(TestOpenFIGIResponseParsingTest.java:4584)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileInputDelimited_1Process(TestOpenFIGIResponseParsingTest.java:4404)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_1Process(TestOpenFIGIResponseParsingTest.java:825)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_2Process(TestOpenFIGIResponseParsingTest.java:650)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.runJobInTOS(TestOpenFIGIResponseParsingTest.java:5713)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.testDefault(TestOpenFIGIResponseParsingTest.java:5465)
+</error>
+    <system-out><![CDATA[[ERROR] 16:29:10 talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest- tFileInputDelimited_1 -  (The system cannot find the path specified)
+[FATAL] 16:29:10 talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest- tFileCompare_1 
+java.io.FileNotFoundException: 
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:219) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:157) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:112) ~[?:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileCompare_1Process(TestOpenFIGIResponseParsingTest.java:4584) [test-classes/:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileInputDelimited_1Process(TestOpenFIGIResponseParsingTest.java:4404) [test-classes/:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_1Process(TestOpenFIGIResponseParsingTest.java:825) [test-classes/:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_2Process(TestOpenFIGIResponseParsingTest.java:650) [test-classes/:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.runJobInTOS(TestOpenFIGIResponseParsingTest.java:5713) [test-classes/:?]
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.testDefault(TestOpenFIGIResponseParsingTest.java:5465) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323) [surefire-booter-2.20.jar:2.20]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143) [surefire-booter-2.20.jar:2.20]
+]]></system-out>
+    <system-err><![CDATA[ (The system cannot find the path specified)
+Exception in component tFileCompare_1 (TestOpenFIGIResponseParsing)
+java.io.FileNotFoundException: 
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileCompare_1Process(TestOpenFIGIResponseParsingTest.java:4584)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tFileInputDelimited_1Process(TestOpenFIGIResponseParsingTest.java:4404)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_1Process(TestOpenFIGIResponseParsingTest.java:825)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.tCreateTemporaryFile_2Process(TestOpenFIGIResponseParsingTest.java:650)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.runJobInTOS(TestOpenFIGIResponseParsingTest.java:5713)
+	at talendftp.testopenfigi_0_1.testopenfigiresponseparsing_0_1.TestOpenFIGIResponseParsingTest.testDefault(TestOpenFIGIResponseParsingTest.java:5465)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]></system-err>
+  </testcase>
+</testsuite>
