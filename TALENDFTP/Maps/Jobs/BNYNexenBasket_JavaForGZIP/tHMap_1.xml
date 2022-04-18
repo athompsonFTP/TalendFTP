@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/NexenBasketDataSample.xml' outStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/OutputWrapper.xml' inputRep='177' nextMap='' inputStructUserName='NexenBasketDataSample' outputStructUserName='OutputWrapper' V1='4' name='tHMap_1' incarnation='1722'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='11' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NexenBasketDataSample'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/NexenBasketDataSample.xml' outStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/OutputWrapper.xml' inputRep='177' nextMap='' inputStructUserName='NexenBasketDataSample' outputStructUserName='OutputWrapper' V1='4' name='tHMap_1' incarnation='1750'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NexenBasketDataSample'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='metadata'>
       <mapNode t='190' idref='1'/>
@@ -20,9 +20,9 @@
         <mapNode t='190' idref='1'/>
       </child>
     </child>
-    <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='7' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='data'>
+    <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='data'>
       <mapNode t='190' idref='1'/>
-      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='header'>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='header'>
         <mapNode t='190' idref='1'/>
         <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='accountInformation'>
           <mapNode t='190' idref='1'/>
@@ -168,7 +168,7 @@
             <mapNode t='190' idref='1'/>
           </child>
         </child>
-        <child t='200' id='59' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='etfIdentificationAttributes'>
+        <child t='200' id='59' V200='8' input='true' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='etfIdentificationAttributes'>
           <mapNode t='190' idref='1'/>
           <child t='200' id='60' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='basketDescription'>
             <mapNode t='190' idref='1'/>
@@ -702,7 +702,7 @@
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='236' V200='8' structElemExists='true' usedCount='31' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='236' V200='8' structElemExists='true' usedCount='35' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/NexenBasketDataSample,{Filter},{Sort Keys},{Contexts})</loop>
     <child t='200' id='237' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/status.xml' V281='13' modifiedFromParent_emit='true' modifiedFromParent_io='true' V1='4' name='status'>
@@ -741,16 +741,18 @@
         </child>
       </child>
     </child>
-    <child t='200' id='241' V200='8' structElemExists='true' usedCount='9' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPosition.xml' V281='13' modifiedFromParent_io='true' V1='4' name='basketPosition'>
+    <child t='200' id='241' V200='8' structElemExists='true' usedCount='13' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPosition.xml' V281='13' modifiedFromParent_emit='true' modifiedFromParent_io='true' V1='4' name='basketPosition'>
       <mapNode t='190' idref='1'/>
       <repRuntime t='698' id='242' V698='1' V690='1' padOutput='true'>
       </repRuntime>
+      <emit>Not(IsNull(in$/NexenBasketDataSample/data/header/etfIdentificationAttributes))</emit>
       <io>WriteURL([repName="Map"],{URL})</io>
-      <child t='200' id='255' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPositionRecord.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='basketPositionRecord'>
+      <child t='200' id='255' V200='8' structElemExists='true' usedCount='8' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPositionRecord.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='basketPositionRecord'>
         <mapNode t='190' idref='1'/>
         <loop>SimpleLoop(in$/NexenBasketDataSample/data,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/NexenBasketDataSample/data/details,{Filter},{Sort Keys},{Contexts})))</loop>
-        <child t='200' id='256' V200='8' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BasketCUSIP'>
+        <child t='200' id='256' V200='8' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='BasketCUSIP'>
           <mapNode t='190' idref='1'/>
+          <value>in$/NexenBasketDataSample/data/header/etfIdentificationAttributes/basketId</value>
         </child>
         <child t='200' id='257' V200='8' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FIGI'>
           <mapNode t='190' idref='1'/>
