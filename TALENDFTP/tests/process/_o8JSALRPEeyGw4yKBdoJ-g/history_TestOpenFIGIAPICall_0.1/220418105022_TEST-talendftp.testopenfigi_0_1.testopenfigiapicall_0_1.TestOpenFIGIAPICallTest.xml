@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="talendftp.testopenfigi_0_1.testopenfigiapicall_0_1.TestOpenFIGIAPICallTest" time="2.584" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Talend-Studio\plugins\org.eclipse.m2e.maven.runtime_1.18.0.20210603-1206\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="ci.builder.skip" value="true"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows Server 2016"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Java\zulu-11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -o -s D:\Talend-Studio\configuration\maven_user_settings.xml test -llr -l D:/Talend-Studio/workspace/.repositories/1959493198/master/TALENDFTP/poms/jobs/process/OpenFIGI/testopenfigi_0.1/lastGenerated.log -Dci.builder.skip=true -Dlicense.path=D:\Talend-Studio\license -Dsession.id=MzY2MDM4MTY1MDI5NzAxMjE5Mg=="/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1\EMBEDDED"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\student"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Java\zulu-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS"/>
+    <property name="user.name" value="student"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.48+21-CA"/>
+    <property name="license.path" value="D:\Talend-Studio\license"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\student\AppData\Local\Temp\2\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Talend-Studio\workspace\.repositories\1959493198\master\TALENDFTP\poms\jobs\process\OpenFIGI\testopenfigi_0.1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\zulu-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/zulu-11/bin/server;C:/Java/zulu-11/bin;C:\Java\zulu-11\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\GooGet;C:\Program Files\Google\Compute Engine\metadata_scripts;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Google\Compute Engine\sysprep;C:\Program Files\Docker;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\student\AppData\Local\Microsoft\WindowsApps;;C:\Users\student\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.11+9-LTS"/>
+    <property name="classworlds.conf" value="D:\Talend-Studio\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1595465232867165696.tmp"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="session.id" value="MzY2MDM4MTY1MDI5NzAxMjE5Mg=="/>
+  </properties>
+  <testcase name="testDefault" classname="talendftp.testopenfigi_0_1.testopenfigiapicall_0_1.TestOpenFIGIAPICallTest" time="2.499">
+    <failure message="Failure=2&#10;tAssert_1:File from reference differs from input&#10;tAssert_2:File from reference differs from input&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Failure=2
+tAssert_1:File from reference differs from input
+tAssert_2:File from reference differs from input
+
+	at talendftp.testopenfigi_0_1.testopenfigiapicall_0_1.TestOpenFIGIAPICallTest.testDefault(TestOpenFIGIAPICallTest.java:4447)
+</failure>
+    <system-out><![CDATA[[job TestOpenFIGIAPICall] Files differ
+[job TestOpenFIGIAPICall] Files differ
+]]></system-out>
+  </testcase>
+</testsuite>
