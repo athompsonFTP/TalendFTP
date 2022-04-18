@@ -707,7 +707,7 @@
     <loop>SimpleLoop([autoAdded="true"],in$/NexenBasketDataSample,{Filter},{Sort Keys},{Contexts})</loop>
     <child t='200' id='237' V200='8' structElemExists='true' usedCount='17' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/status.xml' V281='13' modifiedFromParent_emit='true' modifiedFromParent_io='true' V1='4' name='status'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='698' id='568' V698='1' V690='1' padOutput='true'>
+      <repRuntime t='698' id='238' V698='1' V690='1' padOutput='true'>
       </repRuntime>
       <emit>Not(IsNull(in$/NexenBasketDataSample/metadata))</emit>
       <io>WriteURL([repName="Map"],{URL})</io>
@@ -722,7 +722,7 @@
     </child>
     <child t='200' id='239' V200='8' structElemExists='true' usedCount='17' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketHeader.xml' V281='13' modifiedFromParent_io='true' V1='4' name='basketHeader'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='698' id='569' V698='1' V690='1' padOutput='true'>
+      <repRuntime t='698' id='240' V698='1' V690='1' padOutput='true'>
       </repRuntime>
       <io>WriteURL([repName="Map"],{URL})</io>
       <child t='200' id='251' V200='8' structElemExists='true' usedCount='12' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketHeaderRecord.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='basketHeaderRecord'>
@@ -743,7 +743,7 @@
     </child>
     <child t='200' id='241' V200='8' structElemExists='true' usedCount='25' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPosition.xml' V281='13' modifiedFromParent_emit='true' modifiedFromParent_io='true' V1='4' name='basketPosition'>
       <mapNode t='190' idref='1'/>
-      <repRuntime t='698' id='570' V698='1' V690='1' padOutput='true'>
+      <repRuntime t='698' id='242' V698='1' V690='1' padOutput='true'>
       </repRuntime>
       <emit>Not(IsNull(in$/NexenBasketDataSample/data/header/etfIdentificationAttributes))</emit>
       <io>WriteURL([repName="Map"],{URL})</io>
@@ -765,7 +765,7 @@
       </child>
     </child>
   </outputMapElem>
-  <inputRepRuntime t='697' id='571' V697='1' V690='1' padOutput='true' encoding='UTF-8'>
+  <inputRepRuntime t='697' id='567' V697='1' V690='1' padOutput='true' encoding='UTF-8'>
   </inputRepRuntime>
   <valueSets></valueSets>
   <child t='165' id='243' V1='4' name='Document Bindings'>
