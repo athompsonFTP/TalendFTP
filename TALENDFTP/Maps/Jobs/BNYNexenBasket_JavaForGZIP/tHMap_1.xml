@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root t='190' id='1' V190='11' inStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/NexenBasketDataSample.xml' outStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/OutputWrapper.xml' inputRep='177' nextMap='' inputStructUserName='NexenBasketDataSample' outputStructUserName='OutputWrapper' V1='4' name='tHMap_1' incarnation='8098'>
-  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='379' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NexenBasketDataSample'>
+<root t='190' id='1' V190='11' inStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/NexenBasketDataSample.xml' outStruct='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/OutputWrapper.xml' inputRep='177' nextMap='' inputStructUserName='NexenBasketDataSample' outputStructUserName='OutputWrapper' V1='4' name='tHMap_1' incarnation='8707'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='382' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='NexenBasketDataSample'>
     <mapNode t='190' idref='1'/>
     <child t='200' id='569' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='metadata'>
       <mapNode t='190' idref='1'/>
@@ -17,7 +17,7 @@
     <child t='200' id='573' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='errors'>
       <mapNode t='190' idref='1'/>
     </child>
-    <child t='200' id='574' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='data'>
+    <child t='200' id='574' V200='8' input='true' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='data'>
       <mapNode t='190' idref='1'/>
       <child t='200' id='580' V200='8' input='true' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='header'>
         <mapNode t='190' idref='1'/>
@@ -94,12 +94,129 @@
           <mapNode t='190' idref='1'/>
         </child>
       </child>
-      <child t='200' id='605' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='details'>
+      <child t='200' id='605' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='details'>
         <mapNode t='190' idref='1'/>
+        <child t='200' id='610' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='cashInLieuAttributes'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='611' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='constituentIdentificationAttributes'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='612' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='alternativeTicker'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='613' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='cusip'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='614' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='figi'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='615' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='fundAccountingAssetGroupCode'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='616' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='instrumentId'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='617' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='isin'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='618' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='ricCode'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='619' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='securityDescription'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='620' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='securityMasterAssetGroup'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='621' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='sedol'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='622' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='ticker'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='623' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='instrumentIdCode'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='624' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='settlementCountryCode'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='625' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='tradingCurrency'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+        <child t='200' id='626' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='constituentValuationAttributes'>
+          <mapNode t='190' idref='1'/>
+          <child t='200' id='627' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='constituentWeightBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='628' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='benchmarkMarketValueBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='629' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='benchmarkPriceBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='630' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='fxRate'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='631' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='localPriceCurrency'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='632' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketPriceBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='633' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketPriceLocal'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='634' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketValueOrUnrealizedBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='635' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketValueOrUnrealizedLocal'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='636' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketValueOrUnrealizedFromPriorDayBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='637' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='marketValueOrUnrealizedFromPriorDayLocal'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='638' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='priceDifferenceAfterProjectionBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='639' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='priceDifferenceAfterProjectionLocal'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='640' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='projectedPriceBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='641' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='projectedPriceLocal'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='642' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='taxlotOriginalPrice'>
+            <mapNode t='190' idref='1'/>
+          </child>
+          <child t='200' id='643' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='benchmarkWeightBase'>
+            <mapNode t='190' idref='1'/>
+          </child>
+        </child>
+        <child t='200' id='644' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='corporateActionAttributes'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='645' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='derivativesAttributes'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='646' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='fixedIncomeAttributes'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='647' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='otherDetailInformation'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='648' V200='8' input='true' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' nullable='true' inheritsFrom='' V281='13' V1='4' name='quantityAttributes'>
+          <mapNode t='190' idref='1'/>
+        </child>
       </child>
     </child>
   </inputMapElem>
-  <outputMapElem t='200' id='195' V200='8' structElemExists='true' usedCount='597' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
+  <outputMapElem t='200' id='195' V200='8' structElemExists='true' usedCount='603' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='root'>
     <mapNode t='190' idref='1'/>
     <loop>SimpleLoop([autoAdded="true"],in$/NexenBasketDataSample,{Filter},{Sort Keys},{Contexts})</loop>
     <child t='200' id='575' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketHeader.xml' V281='13' V1='4' name='basketHeader'>
@@ -120,8 +237,23 @@
         </child>
       </child>
     </child>
-    <child t='200' id='576' V200='8' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPosition.xml' V281='13' V1='4' name='basketPosition'>
+    <child t='200' id='576' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPosition.xml' V281='13' V1='4' name='basketPosition'>
       <mapNode t='190' idref='1'/>
+      <child t='200' id='649' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/basketPositionRecord.xml' V281='13' modifiedFromParent_loop='true' V1='4' name='basketPositionRecord'>
+        <mapNode t='190' idref='1'/>
+        <loop>SimpleLoop(in$/NexenBasketDataSample/data,{Filter},{Sort Keys},NestedContext(SimpleLoop(in$/NexenBasketDataSample/data/details,{Filter},{Sort Keys},{Contexts})))</loop>
+        <child t='200' id='650' V200='8' structElemExists='true' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='BasketCUSIP'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='651' V200='8' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='FIGI'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/NexenBasketDataSample/data/details/constituentIdentificationAttributes/figi</value>
+        </child>
+        <child t='200' id='652' V200='8' structElemExists='true' usedCount='2' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='21' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_value='true' V1='4' name='Price'>
+          <mapNode t='190' idref='1'/>
+          <value>in$/NexenBasketDataSample/data/details/constituentValuationAttributes/marketPriceLocal</value>
+        </child>
+      </child>
     </child>
     <child t='200' id='577' V200='8' structElemExists='true' usedCount='6' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='Structures/Jobs/BNYNexenBasket_JavaForGZIP/tHMap_1/StatusGroup.xml' V281='13' modifiedFromParent_emit='true' V1='4' name='StatusGroup'>
       <mapNode t='190' idref='1'/>
