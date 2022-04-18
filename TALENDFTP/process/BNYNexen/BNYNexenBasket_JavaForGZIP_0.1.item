@@ -50,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:oB0TtxK4OMDrDfejhDyrCNvjJaymmRikhfxvG74u"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qyg5B0EBi/cnNrbomb3QoZNaKvz68eGyMfCQHPgD"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -85,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:d0x9zI+CmNsq63GBi9OJ6z2/CxdlaEjRMzZ5KRY0"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5/ZTjqCkdC13ouBRMcjouIpiaVM/z/Z320SmvTgM"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -369,7 +369,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaFlex_1"/>
     <elementParameter field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
     <elementParameter field="MEMO_JAVA" name="CODE_START" value="URL url = new URL(&quot;https://apigateway.bnymellon.com/etfdataservices/v1/baskets&quot;);&#10;HttpURLConnection con = (HttpURLConnection) url.openConnection();&#10;System.out.println(&quot;Opened connection&quot;);&#10;con.setRequestMethod(&quot;POST&quot;);&#10;con.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer &quot; + (String)globalMap.get(&quot;token&quot;));&#10;con.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json; utf-8&quot;);&#10;con.setRequestProperty(&quot;Accept&quot;, &quot;application/json&quot;);&#10;con.setDoOutput(true);&#10;System.out.println(&quot;configured&quot;);&#10;"/>
-    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;try(OutputStream os = con.getOutputStream()) {&#10;    byte[] input = row7.jsonString.getBytes(&quot;utf-8&quot;);&#10;    os.write(input, 0, input.length);&#9;&#9;&#9;&#10;}&#10;System.out.println(&quot;POSTed request content&quot;);&#10;&#10;// Store ResponseCode&#10;int status = con.getResponseCode();&#10;System.out.println(&quot;Content-Encoding: &quot; + con.getHeaderField(&quot;Content-Encoding&quot;));&#10;&#10;// Inflat gzip stream (the API response content is gziped)&#10;GZIPInputStream gzis = new GZIPInputStream(con.getInputStream());&#10;InputStreamReader reader = new InputStreamReader(gzis);&#10;BufferedReader in = new BufferedReader(reader);&#10;&#10;// Send the output to next component, line by line&#10;String readed = &quot;&quot;;&#10;while ((readed = in.readLine()) != null) {&#10;&#9;row6.content += readed;&#10;}&#10;row6.responseCode = status;      &#10;      "/>
+    <elementParameter field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#10;// a piece of code executed in the row&#10;// loop&#10;try(OutputStream os = con.getOutputStream()) {&#10;    byte[] input = row7.jsonString.getBytes(&quot;utf-8&quot;);&#10;    os.write(input, 0, input.length);&#9;&#9;&#9;&#10;}&#10;System.out.println(&quot;POSTed request content&quot;);&#10;&#10;// Store ResponseCode&#10;int status = con.getResponseCode();&#10;System.out.println(&quot;Content-Encoding: &quot; + con.getHeaderField(&quot;Content-Encoding&quot;));&#10;&#10;// Inflat gzip stream (the API response content is gziped)&#10;GZIPInputStream gzis = new GZIPInputStream(con.getInputStream());&#10;InputStreamReader reader = new InputStreamReader(gzis);&#10;BufferedReader in = new BufferedReader(reader);&#10;&#10;// Send the output to next component, line by line&#10;String readed;&#10;row6.content = &quot;&quot;;&#10;while ((readed = in.readLine()) != null) {&#10;&#9;row6.content += readed;&#10;}&#10;row6.responseCode = status;      &#10;      "/>
     <elementParameter field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#10;      "/>
     <elementParameter field="CHECK" name="Version_V2_0" show="false" value="false"/>
     <elementParameter field="CHECK" name="Version_V3_2" show="false" value="false"/>
@@ -533,7 +533,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="OAUTH2_BEARER"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:v7cH4OVHUOSIOll+xqxcsbasRpYn9bn7mD5jcP60iF5HIZ8QLM4="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:TosDUWYT0YdJmha85bjqhV07//vK6q0Dt6qhlxwXg4xu2CWVUyM="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="(String)globalMap.get(&quot;token&quot;)"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -561,7 +561,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:mtmCfDO7OwJFPNaPTHW0+8kXIG8OtascFKauuyIV"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:ErVfaRyOamU3uFBf4daNz+BNTXBWGzTJkVk6WxR1"/>
     <elementParameter field="TEXT" name="ARRAY_KEYS" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="LABEL" value="GETBasketData"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -999,13 +999,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9f82396b-f93f-4e94-a3eb-f666ccd85151"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8ZsGCJCYcfgnC1BgWtpRdow4cKaWEwDsKLFKigBPTwuyKEI/IE1Y68nZkgQmz280/rzix1V2GxVm&#13;
-pVThpCXc+Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ac54cbc2-be6f-4b7c-b85e-39036f742ba5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zweB9Ob26WXh1gcgDzBpiH5oS+PdLOohrvaH5sZvFgE18Ci6fSDLJx2rCU9L2thCgLaTKH7TDrCS&#13;
-h8cC3YcjAQ==</DigestValue></Reference></SignedInfo><SignatureValue>pKLOBQaUC8b5Z+p82ryMfokhpYgBWLmKklZIslWN9+hZlhzrWONlV6/e4ZnwMttEyI4XQqyJBLBo&#13;
-c1gyE0VQQmZx7KUikCpzJx/q7xqWgAKRD5p7NBEXpyn301ZRqJs/rbrVLCqNPo4Y2doiRsye8AZZ&#13;
-cyndbZE0GtCCXQL0wf6C7O7jahxyHKnMRDsT1XsZRcvXU4SSjKGPv7LcL3e18bkyJP+e5yJ9qqal&#13;
-CJnyHA5OZXf9IldNP1c1ScpRFmTN0ua/ZKY3JEU48hq+Vw15+FMe2nAMYgCJM1kNahiYbE9QV9GC&#13;
-RPZgYVZCrU1Fq/Ux8OrySKPzz7NE9Z8t7QVozg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_335357bd-175d-4320-aa28-fb740d8d2901"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>M4eSVuZlO2Gmi1dFQ8CqkxjfA3xGGAb4Ybiq3ZKejAuPGMc/9zLZBsFu0s6EiQnrRf3F547UfWb9&#13;
+qYT4h4q7Lw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_645b9027-c218-414e-ba7a-32bce09d6a55"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QmyHE6CdWtU8AwHzcmTQDohrnmz111HfH/DcIJ9OB9I1anPSU9zlaeoUKFZ6kX+bPaH6JAa/iTjH&#13;
+FFEo5+7Xbw==</DigestValue></Reference></SignedInfo><SignatureValue>BE5E1DieAUGqnpz9W/N+yhm/eABd/Tjzx1PeJDCc+XxU5uZ8FY5jmnQQRMLrX2doVjNrFt1dUmxx&#13;
+zFgK3FdAl6w/I/n4HlLfuA48oONrJ/5WmmY5nVfPQkGtbfJTZkkro2OJNUIVv7XvwDwG2NcUiFm3&#13;
+JR2VnYIcGpZlo5LiE0TzJTdoFeLvgbGB4I9Jo1F7CyDvPEr0j/P+EGuKBuAjhrQsxIhHgF1O78oc&#13;
+oVsPMpuHF2Fq/Sgy/WJnXWqMvPpfVGCdBVTHlQ+QGEVmRmA+7P+LlC8permCQcqDWds8txgGbNl7&#13;
+hWRimQcVlabDqRz/1LupfZN1xGzMups7ve86zA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1027,4 +1027,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ac54cbc2-be6f-4b7c-b85e-39036f742ba5" Target="#_9f82396b-f93f-4e94-a3eb-f666ccd85151"><Timestamp>2022-04-18 18:58:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_645b9027-c218-414e-ba7a-32bce09d6a55" Target="#_335357bd-175d-4320-aa28-fb740d8d2901"><Timestamp>2022-04-18 18:59:01</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
